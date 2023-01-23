@@ -14,29 +14,26 @@ It is imperative for this lesson that you preview your template page in VS Studi
 
    > **TIP:** Before beginning any work on the project, read through all the steps to understand what you will be doing.
 
-
-1. Using the Explorer Pane in VS Code, create a subfolder in your Lesson 7 course folded called: **images**.
+4. Using the Explorer Pane in VS Code, create a subfolder in your Lesson 7 course folded called: **images**.
 
     > **TIP:** See [How To: Create a Subfolder in VS Code](https://riosalado.coursearc.com/index.php?cID=14714#vssubfolder) if you need help creating a subfolder.
-0. Move the image file included in the repo to your **images** subfolder.
-
-<br>
+5. Move the image file included in the repo to your **images** subfolder.
 
 ## Adjust the Template
 
 1. Open the **template.html** file and update the following:
-   - Within the HTML comment, add your section number and the lesson number.
-   - Within the HEAD, add your first and last name as the author.
-   - Within the footer, add your MEID to the copyright and update the year, if necessary.
-0. Add an unordered list to the navigation element.
-   - Add five list items and add a placeholder link to each list item so that you have a total of five links.
-   - Change the display text to the links to display five pages:
-      - Home
-      - Contact
-      - Computer Information
-      - Services
-      - Accessibility
-   - Do not change the target page for each link, as you'll be adding working links as you move on.
+   1. Within the HTML comment, add your section number and the lesson number.
+   2. Within the HEAD, add your first and last name as the author.
+   3. Within the footer, add your MEID to the copyright and update the year, if necessary.
+2. Add an unordered list to the navigation element.
+   1. Add five list items and add a placeholder link to each list item so that you have a total of five links.
+   2. Change the display text to the links to display five pages:
+      1. Home
+      2. Contact
+      3. Computer Information
+      4. Services
+      5. Accessibility
+   3. Do not change the target page for each link, as you'll be adding working links as you move on.
 
 ## Example Project
 This is an example of what the project should look like at this point in the lesson.
@@ -49,54 +46,54 @@ For the next steps you will need to apply appropriate CSS declaration blocks and
 Use this as your opportunity to experiment with padding, margins etc. to adjust the look and feel of the web page!
 
 1. Add an internal style sheet to the appropriate section.
-0. Add a CSS comment that displays: **Header Styles**
-0. Style the body to:
-   - Specify the text font as a set of sans-serif styled fonts.
-   - Set the default font-size to 100%.
-0. Style the header to:
-   - Apply a background image using the image provided to you.
+2. Add a CSS comment that displays: **Header Styles**
+3. Style the body to:
+   1. Specify the text font as a set of sans-serif styled fonts.
+   2. Set the default font-size to 100%.
+4. Style the header to:
+   1. Apply a background image using the image provided to you.
 
    > **TIP:** The URL is relative to the location of the style sheet, not the web page. Review [Lesson 6: Background Images](https://learnatrio.com/3RPtZZD) for more information.
-   - Set the background so it does not repeat
-   - Center position the background
-   - Adjust the background size to covers the entire element.
-   - Apply a top and bottom padding.
-   - Remove all margins.
-0. Style the first-level heading to:
-   - Specify the text font as a set of serif styled fonts.
-   - Center align the text.
-   - Set the text color to white using a color method of your choosing.
-   - Add a top and bottom padding.
-   - Remove all margins.
-0. Style the unordered list within the navigation element to:
+   2. Set the background so it does not repeat
+   3. Center position the background
+   4. Adjust the background size to covers the entire element.
+   5. Apply a top and bottom padding.
+   6. Remove all margins.
+5. Style the first-level heading to:
+   1. Specify the text font as a set of serif styled fonts.
+   2. Center align the text.
+   3. Set the text color to white using a color method of your choosing.
+   4. Add a top and bottom padding.
+   5. Remove all margins.
+6. Style the unordered list within the navigation element to:
 
    > **TIP:** Create an appropriate selector that targets only the unordered list within the navigation element. If you do not, any future lists you add to your page will be given the same styles you be applied above instead of only styling the navigation bar.
-   - Remove the bullets from the list.
-   - Add a background color of your choosing to the full width of the navigation bar.
-   - Define the top and bottom padding to the same value and remove the left and right padding.
+   1. Remove the bullets from the list.
+   2. Add a background color of your choosing to the full width of the navigation bar.
+   3. Define the top and bottom padding to the same value and remove the left and right padding.
 
    > **TIP:** Remember this value, you'll use it again shortly!
-   - Remove all margins.
-0. Style the list items within the navigation element to: 
-   - Display side-by-side (horizontally). Keep the padding you applied in the previous step.
-0. Style the links within the navigation element to:
-   - Set the text color to white using a color method of your choosing.
-   - Remove the underline below each link.
-   - Define the padding using the value you used for the unordered list, use the same value for all four sides.
+   4. Remove all margins.
+7. Style the list items within the navigation element to: 
+   1. Display side-by-side (horizontally). Keep the padding you applied in the previous step.
+8. Style the links within the navigation element to:
+   1. Set the text color to white using a color method of your choosing.
+   2. Remove the underline below each link.
+   3. Define the padding using the value you used for the unordered list, use the same value for all four sides.
 
    > **TIP:** Notice if you don't use the same values what happens to your navigation bar - elements will overlap, giving your navigation and unfinished appearance.
-0. Style the hover state of the navigation links to:
-   - Add a background color of your choosing.
-0. Add a CSS comment that displays: **Main Styles**
-0. Style the main element to:
-   - Add a background color of your choosing.
-   - Define the padding on all four sides to the same value.
-0. Add a CSS comment that displays: **Footer Styles**
-0. Style the footer to:
-   - Add a background color of your choosing.
-   - Set the text color to white using a color method of your choosing.
-   - Define the padding on all four sides to the same value.
-   - Center align the text.
+9. Style the hover state of the navigation links to:
+   1. Add a background color of your choosing.
+10. Add a CSS comment that displays: **Main Styles**
+11. Style the main element to:
+   1. Add a background color of your choosing.
+   2. Define the padding on all four sides to the same value.
+12. Add a CSS comment that displays: **Footer Styles**
+13. Style the footer to:
+   1. Add a background color of your choosing.
+   2. Set the text color to white using a color method of your choosing.
+   3. Define the padding on all four sides to the same value.
+   4. Center align the text.
 
  ## Example Project
  Below is a rendering of an example project, your web page may not appear the exact same.
@@ -106,13 +103,13 @@ Use this as your opportunity to experiment with padding, margins etc. to adjust 
 ## Submit the Project
 Before you submit your project:
 1. Save your files and apply any final commits to your work.
-0. Push (i.e., sync) the repo on your computer with GitHub to ensure all files are uploaded for your instructor to see.
-0. Verify that all files appear on GitHub.
+2. Push (i.e., sync) the repo on your computer with GitHub to ensure all files are uploaded for your instructor to see.
+3. Verify that all files appear on GitHub.
 
    > **TIP:** You can view any of your repos by going to the GitHub organization for the course - [RSC-computer-technology](https://github.com/rsc-computer-technology). You can bookmark the page for future reference. 
-0. Open the Pull Requests tab within GitHub (or using the GitHub Extension within VS Code).
-0. In the comment field, 
+4. Open the Pull Requests tab within GitHub (or using the GitHub Extension within VS Code).
+5. In the comment field, 
    - Type in your instructor's username with an `@` before. See the course announcements for their username to use. 
    - Put a note to your instructor that the assignment is ready to grade.
-0. Click on the `Comment` button to finalize and submit your assignment to GitHub for review.
-0. Lastly, submit the Project to your **Gradebook** using the steps within **Assessing Your Learning** in Lesson 7.
+6. Click on the `Comment` button to finalize and submit your assignment to GitHub for review.
+7. Lastly, submit the Project to your **Gradebook** using the steps within **Assessing Your Learning** in Lesson 7.
