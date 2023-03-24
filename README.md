@@ -37,9 +37,6 @@ It is imperative for this lesson that you preview your template page in VS Studi
       5. Accessibility
    3. Do not change the target page for each link, as you'll be adding working links as you move on.
 
-## Example Project
-![Screenshot of Example Project without CSS](https://raw.githubusercontent.com/rsc-cis133DA-in-v12/CourseResources/main/L7-example1.png)
-
 ## Style the Template
 
 For the next steps you will need to apply appropriate CSS declaration blocks and selectors to style the page according to the directions. For any CSS property values not specifically defined for you, you will need to determine the value on your own. 
@@ -71,18 +68,14 @@ Use this as your opportunity to experiment with padding, margins etc. to adjust 
    > **TIP:** Create an appropriate selector that targets only the unordered list within the navigation element. If you do not, any future lists you add to your page will be given the same styles you be applied above instead of only styling the navigation bar.
    1. Remove the bullets from the list.
    2. Add a background color of your choosing to the full width of the navigation bar.
-   3. Define the top and bottom padding to the same value and remove the left and right padding.
-
-   > **TIP:** Remember this value, you'll use it again shortly!
-   4. Remove all margins.
+   3. Remove all padding and margins.
 7. Style the list items within the navigation element to: 
-   1. Display side-by-side (horizontally). Keep the padding you applied in the previous step.
+   1. Float the list items to the left of the container.
 8. Style the links within the navigation element to:
-   1. Set the text color to white using a color method of your choosing.
-   2. Remove the underline below each link.
-   3. Define the padding using the value you used for the unordered list, use the same value for all four sides.
-
-   > **TIP:** Notice if you don't use the same values what happens to your navigation bar - elements will overlap, giving your navigation and unfinished appearance.
+   1. Force the element to behave like a block element.
+   2. Set the text color to white using a color method of your choosing.
+   3. Remove the underline below each link.
+   3. Apply a padding on all four sides of the element.
 9. Style the hover state of the navigation links to:
    1. Add a background color of your choosing.
 10. Add a CSS comment that displays: **Main Styles**
