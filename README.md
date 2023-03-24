@@ -14,10 +14,12 @@ It is imperative for this lesson that you preview your template page in VS Studi
 
    > **TIP:** Before beginning any work on the project, read through all the steps to understand what you will be doing.
 
-4. Using the Explorer Pane in VS Code, create a subfolder in your Lesson 7 course folded called: **images**.
+4. Using the Explorer Pane in VS Code, create a subfolder in your Lesson 7 course folder called: **images**.
 
     > **TIP:** See [How To: Create a Subfolder in VS Code](https://riosalado.coursearc.com/index.php?cID=14714#vssubfolder) if you need help creating a subfolder.
-5. Move the image file included in the repo to your **images** subfolder.
+0. Move the image file included in the repo to your **images** subfolder.
+
+<br>
 
 ## Adjust the Template
 
@@ -36,8 +38,7 @@ It is imperative for this lesson that you preview your template page in VS Studi
    3. Do not change the target page for each link, as you'll be adding working links as you move on.
 
 ## Example Project
-This is an example of what the project should look like at this point in the lesson.
-![Screenshot of Example Project without CSS](https://i.imgur.com/QtAlQ7E.png)
+![Screenshot of Example Project without CSS](https://raw.githubusercontent.com/rsc-cis133DA-in-v12/CourseResources/main/L7-example1.png)
 
 ## Style the Template
 
@@ -96,8 +97,7 @@ Use this as your opportunity to experiment with padding, margins etc. to adjust 
    4. Center align the text.
 
  ## Example Project
- Below is a rendering of an example project, your web page may not appear the exact same.
-![Screenshot of Example Project with CSS](https://i.imgur.com/JauCRqX.png)
+![Screenshot of Example Project with CSS](https://raw.githubusercontent.com/rsc-cis133DA-in-v12/CourseResources/main/L7-example2.png)
 
 
 ## Submit the Project
@@ -109,7 +109,7 @@ Before you submit your project:
    > **TIP:** You can view any of your repos by going to the GitHub organization for the course - [RSC-computer-technology](https://github.com/rsc-computer-technology). You can bookmark the page for future reference. 
 4. Open the Pull Requests tab within GitHub (or using the GitHub Extension within VS Code).
 5. In the comment field, 
-   - Type in your instructor's username with an `@` before. See the course announcements for their username to use. 
-   - Put a note to your instructor that the assignment is ready to grade.
+   1. Type in your instructor's username with an `@` before. See the course announcements for their username to use. 
+   2. Put a note to your instructor that the assignment is ready to grade.
 6. Click on the `Comment` button to finalize and submit your assignment to GitHub for review.
 7. Lastly, submit the Project to your **Gradebook** using the steps within **Assessing Your Learning** in Lesson 7.
